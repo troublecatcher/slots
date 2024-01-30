@@ -29,7 +29,7 @@ Future<void> init() async {
   ]);
   final sharedPreferences = await SharedPreferences.getInstance();
   locator.registerLazySingleton<SharedPreferences>(() => sharedPreferences);
-  locator<SharedPreferences>().clear();
+  // locator<SharedPreferences>().clear();
   if (locator<SharedPreferences>().getInt('credits') == null) {
     await locator<SharedPreferences>().setInt('credits', initialBalance);
     await locator<SharedPreferences>()

@@ -143,6 +143,7 @@ class _RouletteScreenState extends State<RouletteScreen> {
                               callback: (p0) {
                                 if (!_gameController.spinning) {
                                   if (isBalanceSufficient()) {
+                                    updateBalance(gameCost);
                                     _gameController.startGame();
                                     _wheelNotifier.sink
                                         .add(_generateRandomVelocity());
