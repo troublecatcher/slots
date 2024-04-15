@@ -1,5 +1,5 @@
 # Slots App
-#### Multiple arcade games application with balance tracking and everyday gift
+#### Three arcade games application with balance tracking and everyday gift
 ## Features
 ### Home Screen
 
