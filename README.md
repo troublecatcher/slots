@@ -1,4 +1,5 @@
 # Slots App
+#### Multiple arcade games application with balance
 ## Features
 ### Home Screen
 
